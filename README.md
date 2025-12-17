@@ -1,34 +1,78 @@
-# Digital Clock App
+# Digital Clock
 
-A minimalist, fullscreen clock application built with React and Tailwind CSS that displays the current time and date with a dynamic backdrop.
-
-![Clock App Screenshot](screenshots/initial-view.png)
+**Live Demo:** [https://digital-clock-v.netlify.app/](https://digital-clock-v.netlify.app/)
 
 ## Overview
 
-This application presents a clean, elegant clock displaying the current time and date against a backdrop image. The clock updates every second and features a subtle backdrop blur effect for enhanced readability. It supports automatic day/night mode switching with theme-adjusted gradients and backgrounds.
+A minimalist and responsive **React-based digital clock** that displays the current time and date in real time. The application features a clean fullscreen layout with automatic day/night background switching for better visual clarity.
+
+This project focuses on real-time updates, clean UI, and modern front-end tooling.
 
 ## Features
 
-- **Real-time Clock**: Updates every second to display the current time.
-- **Date Display**: Shows the current date in full weekday, day, month, and year format.
-- **Responsive Design**: Adapts seamlessly to different screen sizes for a consistent experience.
-- **Dynamic Background**: Changes based on the time of day (day/night) with theme-adjusted gradients and backgrounds.
-- **Backdrop Blur Effect**: Enhances readability by subtly blurring the background.
-- **Transparent Gradient Text**: Adds aesthetic appeal to the time and date display.
-- **Customizable Settings**: Allows users to adjust the clock format (12-hour or 24-hour) and select from various themes.
+* Real-time clock updating every second
+* Current date display (weekday, day, month, year)
+* Automatic day / night background switching
+* Responsive fullscreen layout
+* Clean and minimal UI
+* Lightweight and fast performance
 
-## Recent Updates
+## Tech Stack
 
-- **Customizable Settings**: Users can now toggle between 12-hour and 24-hour formats and choose from multiple themes to personalize their experience.
-- **Performance Enhancements**: Optimized rendering for smoother transitions and reduced resource consumption.
-- **Bug Fixes**: Addressed issues related to time accuracy and background image loading.
+* React
+* JavaScript
+* Vite
+* Tailwind CSS
+* JavaScript Date API
 
-## Installation
 
-To run this project locally:
+## Getting Started
 
-1. **Clone the repository**:
+To run the project locally, follow these steps:
+
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/denichinv/digital-clock.git
+   ```
+
+2. **Navigate into the project directory**
+
+   ```bash
+   cd digital-clock
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at the local address shown in your terminal (usually `http://localhost:5173`).
+
+## Usage
+
+* The clock starts automatically on load
+* Time updates every second
+* Date updates dynamically
+* Background switches automatically based on the current time
+
+## Customization
+
+You can easily customize the project:
+
+* **Time format** – adjust the formatting logic inside the clock component
+* **Backgrounds** – replace or modify background styles or images
+* **Styling** – update Tailwind CSS classes to change layout, colors, or typography
+
+## About
+
+This project was built to practice real-time state updates in React, working with time and date APIs, and building clean UIs using Tailwind CSS and Vite.
+
+**Live Demo:** [https://digital-clock-v.netlify.app/](https://digital-clock-v.netlify.app/)
